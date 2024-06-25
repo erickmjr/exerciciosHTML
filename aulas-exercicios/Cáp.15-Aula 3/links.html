@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(221, 17, 244);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(126, 123, 135);
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: rgb(112, 72, 175);
+        }
+
+        .special{
+            background-color: bisque;
+            width: fit-content;
+        }
+        .special::before{
+            content: "→ ";
+        }
+
+        .special::after{
+            content: " ←";    
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li>
+            <a href="https://github.com/erickmjr" target="_blank" class="special">Link do GitHub</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=vMlrcOVr7po&t=6s" target="_blank">Vídeo que aprendi a utilizar Pseudo-Classes</a>
+        </li>
+        <li>
+            <a href="https://youtu.be/T6eK-2OQtew?si=5vp9amiHFOc4VOOo" target="_blank">Not Like Us - Kendrick Lamar</a>
+        </li>
+
+    </ul>
+</body>
+</html>

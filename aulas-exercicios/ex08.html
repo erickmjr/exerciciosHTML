@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #343F3E;
+        }
+
+        header{
+            background-color: #C0CFB2;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        main{
+            background-color: #C0CFB2;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        footer{
+            background-color: #273526;
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 4px;
+            margin: auto;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.503);
+
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article{
+            background-color: #6D8777;
+            padding: 10px 10px;
+            border-radius: 15px;
+            
+        }
+
+        article > aside{
+            background-color: #45624E;
+            text-align: center;
+            width: 200px;
+            border-radius: 10px;
+            padding: 8px;
+            margin-top: 12px;
+        }
+
+        article > aside > p{
+            margin: 0px;
+            font-size: 16px;
+        }
+
+        article > p {
+            color: white;
+            margin: 0px;
+        }
+
+        nav{
+            background-color: #343F3E;
+            width: fit-content;
+            padding: 10px 5px;
+            
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 1px 2px 6px rgb(84, 84, 84);
+            text-align: center;
+        }
+
+        nav > a{
+
+            text-decoration: none;
+            color: white;
+            margin: auto 55px auto 55px;
+
+            border-radius: 2px;  
+            border-right-style: solid;
+            border-left-style: solid;
+
+            padding-right: 25px;
+            padding-left: 25px;
+        }
+
+        h2{
+            background-color: #E4E6D9;
+            width: 8.5em;
+            padding: 5px;
+            border-radius: 10px 1px;
+            margin: 10px auto 10px auto;
+            box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.509);
+        }
+
+        h1{
+            color: #161e16;
+            text-align: center;
+            margin: 10px auto 20px auto;
+        }
+
+        section > p{
+            background-color: #45624E;
+            color: whitesmoke;
+            width: 14em;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 12px;
+            box-shadow: 1px 1px 5px 0.5px rgb(46, 46, 46);
+        }
+       
+        a:hover{
+           color: #8dbade;
+           font-weight: normal;
+        }
+
+        a:active{
+            color: rgb(13, 13, 31);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MelloJr Notícias</h1>
+        <nav>
+            <a href="https://github.com/erickmjr" target="_blank">Github</a>
+            <a href="https://www.youtube.com"target="_blank">Youtube</a>
+            <a href="https://x.com/home"target="_blank">Twitter</a>
+            <a href="https://www.instagram.com"target="_blank">Instagram</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Futebol - Notícias</h2>
+
+                <ul type>
+                    <li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis iusto eaque maiores nemo! Praesentium non totam perferendis architecto velit corporis earum? Ipsum eveniet mollitia quisquam. Soluta possimus quibusdam commodi perferendis!</p>
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, earum cum ullam pariatur assumenda, culpa expedita ut consequuntur inventore laboriosam laudantium aut unde? Hic, fugiat!
+                    </li>
+                </ul>
+                <aside>
+                    <p>Artigo escrito por Mello Jr.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Desenvolvido por MelloJr. &copyMJr</p>
+       
+    </footer>
+</body>
+</html>

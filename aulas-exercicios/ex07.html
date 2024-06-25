@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Hover</title>
+    <style>
+
+        p{
+            text-align: center;
+        }
+
+        div{
+            background-color: blanchedalmond;
+            width: fit-content;
+            padding: 20px;
+            margin: auto;
+        }
+
+        div > p#hidep {
+            display: none;
+        }
+
+        div:hover > p#hidep {
+            display: block;
+        }
+
+        div:hover{
+            background-color: rgb(154, 105, 199);
+            font: 16px white;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <p>Arraste o mouse para cima da div abaixo.</p>
+    <div> 
+        <p>Div 1</p>
+        <p id="hidep">Texto Escondido</p>
+    </div>
+
+</body>
+</html>

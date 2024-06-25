@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Beauty';
+            src: url('fonts/Beauty.otf') format('opentype'), url('fonts/BeautyRegular.ttf') format('truetype');
+
+            /*
+            TIPOS DE format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Beauty', Times, serif;
+            font-size: 5em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'Beauty', Times, serif;
+            font-size: 4em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <h2>Olá, mundo!</h2>
+    
+</body>
+</html>
